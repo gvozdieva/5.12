@@ -1,0 +1,61 @@
+.conteiner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.conteiner div {
+  width: 50px;
+  height: 50px;
+  background-color: #8400ff;
+}
+
+.conteiner .visited {
+  background-color: rgba(0, 195, 255, 0.945);
+}
+
+.conteiner .passed {
+  background-color: #f07c7c;
+}
+
+.buttons {
+  margin: 0 auto;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.buttons div {
+  width: 50px;
+  height: 50px;
+  background-color: #ff8800;
+  margin: 11px;
+}
+
+.buttons .visitedButt {
+  background-color: grey;
+}
+
+.root {
+  width: 400px;
+  height: 450px;
+  padding: 30px;
+  border: 10px solid transparent;
+}
+
+h1 {
+  color: transparent;
+  font-size: 24px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/*# sourceMappingURL=main.css.map */

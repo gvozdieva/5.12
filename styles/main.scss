@@ -1,0 +1,47 @@
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; 
+    div {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(132, 0, 255);
+    }
+    .visited {
+        background-color: rgba(0, 195, 255, 0.945);
+    }
+    .passed {
+        background-color: rgb(240, 124, 124);
+    }
+}
+
+.buttons {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(255, 136, 0);
+        margin: 11px;
+    }
+    .visitedButt {
+        background-color: grey;
+    }
+}
+.root {
+    width: 400px;
+    height: 450px;
+    padding: 30px;
+    border: 10px solid transparent;
+}
+h1 {
+    color: transparent;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-top: 30px;
+}

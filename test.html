@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function move(x, y){
+            string = '';
+            if(
+                curPos.x === 4 && x === 1
+            ){
+                right.classList.add("visitedButt");
+                return;
+            }else if(
+                curPos.x === 0 && x === -1
+            ){
+                left.classList.add("visitedButt");
+                return;
+            } else if(
+                curPos.y === 4 && y === 1
+            ){
+                bottom.classList.add("visitedbutt");
+                return;
+            } else if(
+                curPos.y ===0 && y === -1
+            ){
+                up.classList.add("visitedButt");
+                return;
+            };
+
+            
+            
+    </script>
+</body>
+</html>
